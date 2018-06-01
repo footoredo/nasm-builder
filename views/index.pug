@@ -1,0 +1,13 @@
+doctype html
+
+html
+    head
+        title= "FFFFFUUUUCCCKKKK"
+    body
+        form(action='/compile', method='POST')
+            p
+                | nasm code:
+                textarea(name='nasm-code')
+                | input:
+                textarea(name='input')
+            input(type='submit', value='submit')
